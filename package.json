@@ -1,6 +1,7 @@
 {
   "name": "osb-addon-extension-manager",
   "version": "1.0.0",
+  "type": "module",
   "description": "An addon for OSB that provides the core functionality for app extensions",
   "author": "Michael Gibbons",
   "license": "MIT"
