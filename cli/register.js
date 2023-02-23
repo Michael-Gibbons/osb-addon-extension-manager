@@ -1,8 +1,7 @@
-import testCommand from './test-command.js'
+import extensionManager from './extension-manager/index.js'
 
 const register = ({ program }) => {
-  program.addCommand(testCommand)
-  console.log('This is some cli code!')
+  program.addCommand(extensionManager)
 }
 
 export {
