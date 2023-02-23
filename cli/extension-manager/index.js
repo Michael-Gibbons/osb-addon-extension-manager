@@ -1,7 +1,7 @@
 import { Command } from 'commander';
 const program = new Command();
 
-import themeCommands from './commands/theme';
+import themeCommands from './commands/theme/index.js';
 
 const extensionManager =
 
